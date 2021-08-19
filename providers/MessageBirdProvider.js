@@ -14,12 +14,12 @@ class MessageBirdProvider extends ServiceProvider {
     this.app.singleton('Adonis/MessageBird', () => {
       const Config = this.app.use('Adonis/Src/Config')
 
-      const messageBird = require('messagebird').default
+      const MessageBird = require('messagebird')
       const accessKey = Config.get('messagebird.key')
       const timeout = Config.get('messagebird.timeout')
       const features = Config.get('messagebird.features')
 
-      return new messageBird(accessKey, timeout, features)
+      return new MessageBird(accessKey, timeout, features)
     })
   }
 

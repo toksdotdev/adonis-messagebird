@@ -1,6 +1,6 @@
 {
   "name": "adonis-messagebird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MessageBird provider for AdonisJS",
   "main": "index.js",
   "scripts": {
