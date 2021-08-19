@@ -12,10 +12,10 @@ adonis install adonis-messagebird
 
 Add MessageBird provider to your AdonisJS application located at `start/app.js`:
 
-```
+```js
 const providers = [
-    ...
-    'adonis-adonis-messagebird/providers/MessageBirdProvider'
+  // ...
+  "adonis-messagebird/providers/MessageBirdProvider",
 ];
 ```
 
