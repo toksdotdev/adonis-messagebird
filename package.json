@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tNkemdilim/adonis-messagebird.git"
+    "url": "git+https://github.com/tnkemdilim/adonis-messagebird.git"
   },
   "keywords": [
     "adonis",
@@ -22,9 +22,9 @@
   "author": "Tochukwu Nkemdilim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tNkemdilim/adonis-messagebird/issues"
+    "url": "https://github.com/tnkemdilim/adonis-messagebird/issues"
   },
-  "homepage": "https://github.com/tNkemdilim/adonis-messagebird#readme",
+  "homepage": "https://github.com/tnkemdilim/adonis-messagebird#readme",
   "devDependencies": {
     "standard": "^14.3.1"
   },
